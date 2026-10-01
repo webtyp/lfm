@@ -1,0 +1,1 @@
+Tests live in `tests/` and use the exported API only. The tiny checkpoint in `testdata/` has LFM2's real vocabulary and random weights; regenerate it with `testdata/gen_tiny.py` (seed 3, scale 3), then `testdata/tiny_expected.json` with `go run ./testdata/gen_expected`.
