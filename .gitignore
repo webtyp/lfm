@@ -19,3 +19,6 @@ coverage.html
 *.code-workspace
 .vscode
 go.work
+
+# scratch output of testdata/gen_tiny.py
+testdata/tiny_build/

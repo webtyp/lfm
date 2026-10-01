@@ -1,0 +1,74 @@
+[
+ {
+  "name": "plain",
+  "max_output_tokens": 6,
+  "input_tokens": 11,
+  "output_ids": [
+   14048,
+   14048,
+   14048
+  ],
+  "text": "44GX44G+44GX44Gf44GX44G+44GX44Gf44GX44G+44GX44Gf",
+  "stop_reason": "end_turn"
+ },
+ {
+  "name": "system",
+  "max_output_tokens": 6,
+  "input_tokens": 43,
+  "output_ids": [
+   58942
+  ],
+  "text": "bmV2ZXI=",
+  "stop_reason": "end_turn"
+ },
+ {
+  "name": "data_question",
+  "max_output_tokens": 6,
+  "input_tokens": 103,
+  "output_ids": [
+   58942
+  ],
+  "text": "bmV2ZXI=",
+  "stop_reason": "end_turn"
+ },
+ {
+  "name": "multi_turn",
+  "max_output_tokens": 6,
+  "input_tokens": 43,
+  "output_ids": [
+   51179
+  ],
+  "text": "IFRpc2No",
+  "stop_reason": "end_turn"
+ },
+ {
+  "name": "no_system",
+  "max_output_tokens": 6,
+  "input_tokens": 25,
+  "output_ids": [
+   14048,
+   16886,
+   16886,
+   16886,
+   11673,
+   11673
+  ],
+  "text": "44GX44G+44GX44Gf6YzpjOmMIGxsIGxs",
+  "stop_reason": "max_tokens"
+ },
+ {
+  "name": "typed_control_tokens",
+  "max_output_tokens": 6,
+  "input_tokens": 28,
+  "output_ids": [
+   58725,
+   58725,
+   58725,
+   58725,
+   58725,
+   58725
+  ],
+  "text": "IG9jY3VycmVuY2VzIG9jY3VycmVuY2VzIG9jY3VycmVuY2VzIG9jY3VycmVuY2VzIG9jY3VycmVuY2VzIG9jY3VycmVuY2Vz",
+  "stop_reason": "max_tokens"
+ }
+]
