@@ -23,4 +23,5 @@ How to produce the two files: [docs/ARCHITECTURE.md → Weights](docs/ARCHITECTU
 
 ## Documentation
 
+- [AGENTS.md](AGENTS.md) — instructions and notes for software agents.
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — the prompt format, how generation stops, streaming, weights.

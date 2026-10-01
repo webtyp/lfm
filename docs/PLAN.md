@@ -3,8 +3,9 @@ PLAN: "feat: LFM2.5-350M as llm.Client, llm.Streamer and llm.TokenCounter (write
 TAG: v0.1.0
 EXECUTOR: jules
 REVIEWER: none
-STATUS: running
+STATUS: review
 SESSION: 16982462036494478473
+PR: https://github.com/webtyp/lfm/pull/1
 ---
 
 > This plan is dispatched via the CodeJob workflow. See skill: agents-workflow.
