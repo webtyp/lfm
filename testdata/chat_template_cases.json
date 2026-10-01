@@ -40,14 +40,14 @@
   "messages": [
    {
     "role": "system",
-    "content": "Eres Jose, asistente del Consultorio María Josefa. Responde en español."
+    "content": "Eres Cote, asistente del Consultorio María Josefa. Responde en español."
    },
    {
     "role": "user",
     "content": "¿Qué días atiende la Dra. Soto?"
    }
   ],
-  "prompt": "<|startoftext|><|im_start|>system\nEres Jose, asistente del Consultorio María Josefa. Responde en español.<|im_end|>\n<|im_start|>user\n¿Qué días atiende la Dra. Soto?<|im_end|>\n<|im_start|>assistant\n",
+  "prompt": "<|startoftext|><|im_start|>system\nEres Cote, asistente del Consultorio María Josefa. Responde en español.<|im_end|>\n<|im_start|>user\n¿Qué días atiende la Dra. Soto?<|im_end|>\n<|im_start|>assistant\n",
   "ids": [
    1,
    6,
@@ -55,7 +55,8 @@
    708,
    546,
    1276,
-   6745,
+   841,
+   2176,
    521,
    31792,
    2963,
@@ -100,7 +101,8 @@
    708,
    546,
    1276,
-   6745,
+   841,
+   2176,
    521,
    31792,
    2963,
@@ -144,14 +146,14 @@
   "messages": [
    {
     "role": "system",
-    "content": "Eres Jose. Respondes a los funcionarios en español, en una o dos frases, usando solo los datos entregados."
+    "content": "Eres Cote. Respondes a los funcionarios en español, en una o dos frases, usando solo los datos entregados."
    },
    {
     "role": "user",
     "content": "[2026-09-29 Tuesday 10:00]\nDatos del consultorio: {\"name\":\"Juan Pérez\",\"next_appointment\":\"2026-10-02 09:30\"}\n\nPregunta: ¿Cuándo es la próxima cita de Juan Pérez?"
    }
   ],
-  "prompt": "<|startoftext|><|im_start|>system\nEres Jose. Respondes a los funcionarios en español, en una o dos frases, usando solo los datos entregados.<|im_end|>\n<|im_start|>user\n[2026-09-29 Tuesday 10:00]\nDatos del consultorio: {\"name\":\"Juan Pérez\",\"next_appointment\":\"2026-10-02 09:30\"}\n\nPregunta: ¿Cuándo es la próxima cita de Juan Pérez?<|im_end|>\n<|im_start|>assistant\n",
+  "prompt": "<|startoftext|><|im_start|>system\nEres Cote. Respondes a los funcionarios en español, en una o dos frases, usando solo los datos entregados.<|im_end|>\n<|im_start|>user\n[2026-09-29 Tuesday 10:00]\nDatos del consultorio: {\"name\":\"Juan Pérez\",\"next_appointment\":\"2026-10-02 09:30\"}\n\nPregunta: ¿Cuándo es la próxima cita de Juan Pérez?<|im_end|>\n<|im_start|>assistant\n",
   "ids": [
    1,
    6,
@@ -159,7 +161,8 @@
    708,
    546,
    1276,
-   6745,
+   841,
+   2176,
    523,
    2382,
    4168,
@@ -264,7 +267,8 @@
    708,
    546,
    1276,
-   6745,
+   841,
+   2176,
    523,
    2382,
    4168,
@@ -368,7 +372,7 @@
   "messages": [
    {
     "role": "system",
-    "content": "Eres Jose."
+    "content": "Eres Cote."
    },
    {
     "role": "user",
@@ -383,7 +387,7 @@
     "content": "Gracias"
    }
   ],
-  "prompt": "<|startoftext|><|im_start|>system\nEres Jose.<|im_end|>\n<|im_start|>user\nHola<|im_end|>\n<|im_start|>assistant\n¡Hola! ¿En qué te ayudo?<|im_end|>\n<|im_start|>user\nGracias<|im_end|>\n<|im_start|>assistant\n",
+  "prompt": "<|startoftext|><|im_start|>system\nEres Cote.<|im_end|>\n<|im_start|>user\nHola<|im_end|>\n<|im_start|>assistant\n¡Hola! ¿En qué te ayudo?<|im_end|>\n<|im_start|>user\nGracias<|im_end|>\n<|im_start|>assistant\n",
   "ids": [
    1,
    6,
@@ -391,7 +395,8 @@
    708,
    546,
    1276,
-   6745,
+   841,
+   2176,
    523,
    7,
    708,
@@ -436,7 +441,8 @@
    708,
    546,
    1276,
-   6745,
+   841,
+   2176,
    523,
    7,
    708,

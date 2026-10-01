@@ -14,7 +14,7 @@
  {
   "name": "system",
   "max_output_tokens": 6,
-  "input_tokens": 43,
+  "input_tokens": 44,
   "output_ids": [
    58942
   ],
@@ -24,7 +24,7 @@
  {
   "name": "data_question",
   "max_output_tokens": 6,
-  "input_tokens": 103,
+  "input_tokens": 104,
   "output_ids": [
    58942
   ],
@@ -34,12 +34,17 @@
  {
   "name": "multi_turn",
   "max_output_tokens": 6,
-  "input_tokens": 43,
+  "input_tokens": 44,
   "output_ids": [
-   51179
+   11181,
+   11181,
+   11181,
+   11181,
+   11181,
+   11181
   ],
-  "text": "IFRpc2No",
-  "stop_reason": "end_turn"
+  "text": "IGFydGlzdHMgYXJ0aXN0cyBhcnRpc3RzIGFydGlzdHMgYXJ0aXN0cyBhcnRpc3Rz",
+  "stop_reason": "max_tokens"
  },
  {
   "name": "no_system",
