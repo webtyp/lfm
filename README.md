@@ -1,4 +1,5 @@
 # lfm
+<img src="docs/img/badges.svg">
 
 The LFM2 language models (LiquidAI's LFM2.5-350M) for webtyp, as a **writer**: it implements
 `llm.Client`, `llm.Streamer` and `llm.TokenCounter` in Go, running in the browser under TinyGo, by
