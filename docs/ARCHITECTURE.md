@@ -63,7 +63,7 @@ rendering by `transformers` for every case the tests check:
 - **Streaming in whole characters.** A token can hold half of a UTF-8 character (a Japanese or
   accented character split across two tokens). `GenerateStream` holds such a tail back until the
   character is complete, so every `onText` chunk ends on a character boundary, and the chunks
-  joined are exactly `Response.Text`.
+  joined are exactly `Response.Text`. The holding back is `tokenizer.Stream`, shared with `webtyp/qwen`.
 
 ## Weights
 

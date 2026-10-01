@@ -46,9 +46,8 @@ func (m *Model) GenerateStream(ctx *context.Context, req llm.Request, onText fun
 		max = defaultMaxOutputTokens
 	}
 
-	var text []byte
+	var text tokenizer.Stream
 	generated := 0
-	shown := 0
 	reason := llm.StopMaxTokens
 
 	for generated < max {
@@ -59,14 +58,8 @@ func (m *Model) GenerateStream(ctx *context.Context, req llm.Request, onText fun
 		}
 
 		generated++
-		text = tokenizer.Lfm2Scheme{}.DecodeToken(text, m.vocab[next])
-
-		if onText != nil {
-			end := completeUTF8(text)
-			if end > shown {
-				onText(string(text[shown:end]))
-				shown = end
-			}
+		if chunk := text.Write(tokenizer.Lfm2Scheme{}.DecodeToken(nil, m.vocab[next])); chunk != "" && onText != nil {
+			onText(chunk)
 		}
 
 		if err := m.dec.Step(st, next, logits); err != nil {
@@ -74,12 +67,12 @@ func (m *Model) GenerateStream(ctx *context.Context, req llm.Request, onText fun
 		}
 	}
 
-	if shown < len(text) && onText != nil {
-		onText(string(text[shown:]))
+	if tail := text.Flush(); tail != "" && onText != nil {
+		onText(tail)
 	}
 
 	return llm.Response{
-		Text:       string(text),
+		Text:       text.Text(),
 		StopReason: reason,
 		Usage: llm.Usage{
 			InputTokens:  len(prompt),
